@@ -1,0 +1,79 @@
+body {
+    background-color: #000;
+}
+.navbar {
+    background: #1a1d36;
+    position: sticky;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 1; }
+.navbar-center {
+      width: 100%;
+      max-width: 1720px;
+      height: 100%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+.reloj-icon {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        padding: 20px 10px; }
+.reloj {
+          font-family: "VT323", monospace; }
+.fecha {
+          font-family: "VT323", monospace; }
+body .navbar .navbar-center a {
+        text-decoration: none;
+        width: 52%; }
+body .navbar .navbar-center a h1 {
+          color: #fff;
+          font-size: 5rem;
+          font-family: "Teko", sans-serif;
+          text-align: center;
+          padding-top: 10px; }
+          body .navbar .navbar-center a h1 .bandera {
+            color: #86c6f4; }
+body .navbar .navbar-center .cart-btn {
+        position: relative;
+        width: 28%;
+        padding: 10px;
+        cursor: pointer;
+        margin-right: 10px; }
+body .navbar .navbar-center .cart-btn .nav-icon .fa-shopping-cart {
+          color: #ffab4c; }
+body .navbar .navbar-center .cart-btn .nav-icon .fa-hand-holding-dollar {
+          color: #8b9a46; }
+body .navbar .navbar-center .cart-btn .cart-items {
+          position: absolute;
+          top: 0;
+          right: 5px;
+          background: #fff;
+          padding: 0 5px;
+          border-radius: 30%;
+          color: #000;
+          font-weight: bold; }
+footer {
+    height: 20vh;
+    display: flex;
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+footer div {
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
